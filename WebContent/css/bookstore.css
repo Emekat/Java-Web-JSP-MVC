@@ -1,0 +1,27 @@
+span.tooltip_message, span.tooltip_img1 {
+cursor: pointer;
+display: inline-block;
+background-color: #F20B26;
+width: 16px;
+height: 18px;
+color: #ffffff;
+font-size: 12px;
+font-weight: bold;
+text-align: center;
+position: relative;
+}
+
+span.tooltip_message:hover {
+background-color: #04FF97;
+}
+
+div.message {
+background-color: #04FF97;
+color: #000000;
+position: absolute;
+left: 18px;
+top: -18px;
+z-index: 1000000;
+text-align: left;
+width: 280px;
+}

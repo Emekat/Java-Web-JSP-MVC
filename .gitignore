@@ -1,0 +1,42 @@
+# Eclipse
+.metadata/
+.settings/
+*.log
+
+# Eclipse project files
+.classpath
+.project
+
+# Build output
+bin/
+build/
+target/
+
+# Web content deploy
+WebContent/WEB-INF/lib/*.jar
+
+# macOS
+.DS_Store
+
+# Idea
+*.iml
+.idea/
+
+# node
+node_modules/
+
+# Gradle
+.gradle/
+
+# Logs
+*.log
+
+# temp files
+tmp/
+
+# Ignore sensitive local properties
+*.properties
+
+# Keep specific jar if you want to commit it; currently ignoring all jars in lib
+# Uncomment the following line if you want to keep mysql driver committed
+# !WebContent/WEB-INF/lib/mysql-connector-j-9.6.0.jar
